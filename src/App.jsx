@@ -1,6 +1,8 @@
 import './App.css'
+import AnimationControl from './Components/AnimationControl'
 import BasicsOfMotion from './Components/BasicsOfMotion'
 import Gestures from './Components/Gestures'
+import ViewBaseAnimation from './Components/ViewBaseAnimation'
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
     <>
       <BasicsOfMotion />
       <Gestures />
+      <AnimationControl />
+      <ViewBaseAnimation />
     </>
   )
 }
